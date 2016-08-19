@@ -1,4 +1,6 @@
-﻿using System;
+﻿//The First and last name doesn't work in the final form
+//and my random name also doesn't work
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
