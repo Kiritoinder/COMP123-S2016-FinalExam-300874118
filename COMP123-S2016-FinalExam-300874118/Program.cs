@@ -8,6 +8,8 @@ namespace COMP123_S2016_FinalExam_300874118
 {
     public static class Program
     {
+        public static SplashScreneForm SplashScrene;
+        public static GenerateNameForm FirstForm;
         public static Character character = new Character();
 
         /// <summary>
@@ -19,7 +21,10 @@ namespace COMP123_S2016_FinalExam_300874118
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AbilityGeneratorForm());
+
+            FirstForm = new GenerateNameForm();
+            SplashScrene = new SplashScreneForm();
+            Application.Run(SplashScrene);
         }
     }
 }

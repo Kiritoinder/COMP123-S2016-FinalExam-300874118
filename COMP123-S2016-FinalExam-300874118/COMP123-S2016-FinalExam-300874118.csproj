@@ -134,6 +134,9 @@
     <EmbeddedResource Include="RaceAndClassForm.resx">
       <DependentUpon>RaceAndClassForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreneForm.resx">
+      <DependentUpon>SplashScreneForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="ClassDiagram.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
