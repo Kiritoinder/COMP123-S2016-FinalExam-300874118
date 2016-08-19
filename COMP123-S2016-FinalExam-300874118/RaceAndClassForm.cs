@@ -44,6 +44,9 @@ namespace COMP123_S2016_FinalExam_300874118
 
         private void NextButton_Click(object sender, EventArgs e)
         {
+            Character character = new Character();
+     //       character.Race = this._selectedRace;
+                
             FinalForm finalForm = new FinalForm();
             finalForm.previousForm = this;
 
