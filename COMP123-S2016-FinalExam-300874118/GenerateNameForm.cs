@@ -29,6 +29,7 @@ namespace COMP123_S2016_FinalExam_300874118
         //Added next button to hide this form and show AbilityGeneratorForm 
         private void NextButton_Click(object sender, EventArgs e)
         {
+
             Character character = new Character();
             character.FirstName = FirstNameTextBox.Text;
             character.LastName = LastNameTextBox.Text;
@@ -40,6 +41,7 @@ namespace COMP123_S2016_FinalExam_300874118
             this.Hide(); //Hides this form
         }
 
+        //method to select First Names 
         private void FirstNameListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             FirstNameTextBox.Text = string.Empty;
@@ -48,7 +50,7 @@ namespace COMP123_S2016_FinalExam_300874118
                 FirstNameTextBox.Text = value.ToString();
             }
         }
-
+        //Method to select Last Name
         private void LastNameListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             LastNameTextBox.Text = string.Empty;

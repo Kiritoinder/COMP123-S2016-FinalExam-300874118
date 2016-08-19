@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//Class modified by Inderjeet Singh
+// Student I.D- 300874118
+// Date Modified: August 19,2016
 namespace COMP123_S2016_FinalExam_300874118
 {
     public partial class FinalForm : Form
@@ -41,6 +43,7 @@ namespace COMP123_S2016_FinalExam_300874118
 
         private void FinalForm_Load(object sender, EventArgs e)
         {
+            //Showing saved text from previous forms
             StrengthTextBox.Text = Program.character.Strength.ToString();
             DexterityTextBox.Text = Program.character.Dexterity.ToString();
             ConstitutionTextBox.Text = Program.character.Constitution.ToString();
