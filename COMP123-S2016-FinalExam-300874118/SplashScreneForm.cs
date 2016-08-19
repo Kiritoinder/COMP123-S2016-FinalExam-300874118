@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /**
+ * App Name : Create Avatar
  * Author: Inderjeet Singh
  * StudentNumber: 300874118
  * Description: A splash screne form for the application
