@@ -103,6 +103,12 @@
     <Compile Include="RaceAndClassForm.Designer.cs">
       <DependentUpon>RaceAndClassForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SplashScreneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreneForm.Designer.cs">
+      <DependentUpon>SplashScreneForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AbilityGeneratorForm.resx">
       <DependentUpon>AbilityGeneratorForm.cs</DependentUpon>
     </EmbeddedResource>
